@@ -1,6 +1,6 @@
 1. Commits in total: 11 (based on github and git log --oneline)
 
-2. git log -1 shows that the lat commit was made on Tuesday March 20th 14:21:18 2018 +0200 by an author whose name is Sepan Bolotnikov <stjoopa@gmail.com>
+2. git log -1 shows that the last commit was made on Tuesday March 20th 14:21:18 2018 +0200 by an author whose name is Stepan Bolotnikov <stjoopa@gmail.com>
 
 3. git log --patch --grep="Added local configuration data"
 diff --git a/config.txt b/config.txt
