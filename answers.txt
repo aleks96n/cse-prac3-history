@@ -1,0 +1,24 @@
+1. Commits in total: 11 (based on github and git log --oneline)
+
+2. git log -1 shows that the lat commit was made on Tuesday March 20th 14:21:18 2018 +0200 by an author whose name is Sepan Bolotnikov <stjoopa@gmail.com>
+
+3. git log --patch --grep="Added local configuration data"
+diff --git a/config.txt b/config.txt
+new file mode 100644
+index 0000000..8423424
+--- /dev/null
++++ b/config.txt
+@@ -0,0 +1,8 @@
++core.repositoryformatversion=0
++core.filemode=false
++core.bare=false
++core.logallrefupdates=true
++remote.origin.url=git@github.com:Stopa/cse-prac3-history.git
++remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
++branch.master.remote=origin
++branch.master.merge=refs/heads/master
+
+git log --stat --grep="Added local configuration data"
+
+ config.txt | 8 ++++++++
+ 1 file changed, 8 insertions(+)
